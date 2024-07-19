@@ -20,16 +20,16 @@ public class Task3Test {
 //    }
 
 
-    @Test
-    @DisplayName("roomArea(12.0, 15.0, 10.0)")
-    public void test1() {
-        assertEquals(720, PaintCalculator.roomArea(12.0, 15.0, 10.0));
-    }
-
-    @Test
-    @DisplayName("roomArea(7.5, 11.5, 8.25)")
-    public void test2() {
-        assertEquals(399.75, PaintCalculator.roomArea(7.5, 11.5, 8.25));
-    }
+//    @Test
+//    @DisplayName("roomArea(12.0, 15.0, 10.0)")
+//    public void test1() {
+//        assertEquals(720, PaintCalculator.roomArea(12.0, 15.0, 10.0));
+//    }
+//
+//    @Test
+//    @DisplayName("roomArea(7.5, 11.5, 8.25)")
+//    public void test2() {
+//        assertEquals(399.75, PaintCalculator.roomArea(7.5, 11.5, 8.25));
+//    }
 
 }

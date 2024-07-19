@@ -21,17 +21,17 @@ public class Task2Test {
 //        assertEquals(313.5, method.invoke(null, 7.5, 11.5, 8.25));
 //    }
 
-  @Test
-  @DisplayName("wallArea(12.0, 15.0, 10.0)")
-  public void test1() {
-    assertEquals(  540.0, PaintCalculator.wallArea(12.0, 15.0, 10.0));
-  }
-
-  @Test
-  @DisplayName("wallArea(7.5, 11.5, 8.25)")
-  public void test2() {
-    assertEquals(  313.5, PaintCalculator.wallArea(7.5, 11.5, 8.25));
-  }
+//  @Test
+//  @DisplayName("wallArea(12.0, 15.0, 10.0)")
+//  public void test1() {
+//    assertEquals(  540.0, PaintCalculator.wallArea(12.0, 15.0, 10.0));
+//  }
+//
+//  @Test
+//  @DisplayName("wallArea(7.5, 11.5, 8.25)")
+//  public void test2() {
+//    assertEquals(  313.5, PaintCalculator.wallArea(7.5, 11.5, 8.25));
+//  }
 
 
 

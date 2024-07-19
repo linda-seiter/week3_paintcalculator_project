@@ -53,7 +53,7 @@ A room has four walls that need to be painted:
   Use the Javadoc comment as a guideline for parameter and return types.
 - Edit `main` to print the result of calling `wallArea` for each test case listed.
 - Run `PaintCalculator` and confirm the output matches the expected result.
-- Run `Task2Test` to confirm the Junit tests pass.
+- Edit `Task2Test` to uncomment the Junit test methods. Run `Task2Test` and confirm the tests pass.
 
 ## Task 3 - `roomArea` method
 
@@ -80,7 +80,7 @@ Assume the ceiling and walls will be painted the same color.
     </div>
 - Edit `main` to print the result of calling `roomArea` for each test case listed.
 - Run `PaintCalculator` and confirm the output matches the expected result.
-- Run `Task3Test` to confirm the Junit tests pass.
+- Edit `Task3Test` to uncomment the Junit test methods. Run `Task3Test` and confirm the tests pass.
 
 ## Task 4 - `gallonsPaint` method
 
@@ -113,7 +113,7 @@ only sells paint by the gallon (i.e. no 1/2 gallons available for purchase).
     </div>
 - Edit `main` to print the result of calling `roomArea` for each test case listed.
 - Run `PaintCalculator` and confirm the output matches the expected result.
-- Run `Task4Test` to confirm the Junit tests pass.
+- Edit `Task4Test` to uncomment the Junit test methods. Run `Task4Test` and confirm the tests pass.
 
 ## Task 5 - `main` method I/O
 
@@ -142,10 +142,11 @@ only sells paint by the gallon (i.e. no 1/2 gallons available for purchase).
   </table>
 
 - Update the `main` method:
-    - Prompt for and read in the room length, width, and height.
-    - Call the `gallonsPaint` method with the input values and print the result as shown.
+  - Delete the existing print statements.
+  - Prompt for and read in the room length, width, and height.
+  - Call the `gallonsPaint` method with the input values and print the result as shown.
 - Run `PaintCalculator` and confirm the output matches the expected result.
-- Run `Task5Test` to confirm the Junit tests pass. 
+- Run `Task5Test` and confirm the tests pass. 
 
 
 
